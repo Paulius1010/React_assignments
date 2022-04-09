@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 
 function AvatarPage() {
-    let {avatarname} = useParams;
+    let {avatarname} = useParams();
     console.log(avatarname);
 
     const [content, setContent] = useState([]);
